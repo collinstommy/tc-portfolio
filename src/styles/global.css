@@ -1,3 +1,42 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Poppins",Helvetica,sans-serif
 }
+
+body {
+  @apply text-gray-500 text-sm leading-relaxed;
+}
+
+.section-heading {
+  position: relative;
+  display: inline-block;
+}
+
+.section-heading::before {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 2px;
+    bottom: -3px;
+    @apply bg-blue-500;
+}
+
+@layer base {
+  h1, h2, h3, h4 {
+    @apply text-black;
+  }
+
+  h2 {
+    @apply text-xl font-semibold;
+  }
+
+  h3 {
+    @apply text-lg font-semibold;
+  }
+}
+

@@ -28,8 +28,7 @@
 			{description}
 		</p>
 		<div class="flex flex-col items-center md:flex-row">
-			<Cta href="https://www.google.com">Download CV</Cta>
-			<Cta href="https://www.google.com" secondary>Contact</Cta>
+			<Cta href="https://www.google.com">Contact</Cta>
 		</div>
 	</div>
 </div>

@@ -1,19 +1,21 @@
 <script>
+	import Work from '../components/work.svelte';
 	import Hero from '../components/hero.svelte';
 	import Nav from '../components/nav.svelte';
+	import Projects from '../components/projects.svelte';
+import Skills from '../components/skills.svelte';
 </script>
 
 <style>
 	.main {
 		max-width: 1320px;
 	}
-	
+
 	@media (min-width: 768px) {
 		.main {
 			border-radius: 40px;
 		}
 	}
-
 </style>
 
 <div
@@ -24,12 +26,14 @@
   
 	md:mt-14
 	md:mx-10
-  md:px-12
+  md:px-10
 "
 >
 	<Nav />
-	<main class="px-12">
+	<main class="px-8">
 		<Hero />
+		<Projects />
+		<Work />
+		<Skills />
 	</main>
 </div>
-

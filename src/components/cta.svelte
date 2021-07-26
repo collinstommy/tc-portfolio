@@ -21,7 +21,11 @@
     my-1
     text-sm
     shadow-sm
-    
+
+    hover:bg-blue-500
+    hover:text-white
+    transition-all
+
     md: mr-2
 
     ${secondary && `

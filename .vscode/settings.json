@@ -3,5 +3,12 @@
   // Enable per-language
   "[javascript]": {
     "editor.formatOnSave": true
+  },
+  "css.validate": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
