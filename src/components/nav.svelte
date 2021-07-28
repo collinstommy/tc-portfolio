@@ -1,10 +1,8 @@
 <script>
 	const navItems = [
-		{ link: '/about', text: 'About' },
-		{ link: '/work', text: 'Work' },
-		{ link: '/projects', text: 'Projects' },
-		{ link: '/contact', text: 'Contact' },
-		{ link: '/blog', text: 'Blog' }
+		{ link: '#work', text: 'Work' },
+		{ link: '#projects', text: 'Projects' },
+		{ link: 'https://blog.tcollins.dev', text: 'Blog' }
 	];
 
 	let open = false;

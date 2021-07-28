@@ -4,17 +4,10 @@
 	const { work, education } = i18n;
 </script>
 
-<style lang="scss">
-	.experience {
-		max-width: 700px;
-		margin: 0 auto;
-	}
-</style>
-
 <!-- <div class="md:px-10 md:grid grid-cols-2 gap-x-10"> -->
 
 <div class="py-10">
-	<h2 class="section-heading">Experience</h2>
+	<h2 id="work" class="section-heading">Experience</h2>
 	<div class="md:grid grid-cols-2 gap-x-28">
 		{#each work as { company, duration, title, duties }}
 			<div class="mt-9">

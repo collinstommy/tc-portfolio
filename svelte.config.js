@@ -5,6 +5,12 @@ import adapterStatic from '@sveltejs/adapter-static';
 const config = {
 	kit: {
 		target: 'body',
+		adapter: adapterStatic({
+			// default options are shown
+			pages: 'build',
+			assets: 'build',
+			fallback: null
+		})
 	},
 	preprocess: [
 		preprocess({
