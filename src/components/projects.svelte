@@ -7,7 +7,7 @@
 </style>
 
 <h2 class="section-heading">Projects</h2>
-<ul class="grid gap-6 mb-14 mt-10 md:grid-cols-3 ">
+<ul class="grid gap-6 mb-28 mt-10 md:grid-cols-3 ">
 	{#each projects as { name, url, tech, description }}
 		<li class="shadow px-8 py-6">
 			<h3>{name}</h3>
@@ -17,7 +17,7 @@
            <span class="bg-blue-100 text-blue-900 px-2 mr-2 mb-2 rounded">{item}</span>
         {/each}
       </div>
-      <a href={url} class="text-blue-500 hover:underline">Visit</a>
+      <a href={url} class="text-blue-700 hover:underline">Visit</a>
 		</li>
 	{/each}
 </ul>

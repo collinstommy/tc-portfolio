@@ -11,7 +11,7 @@
 
 <div class="py-10 flex flex-col items-start">
 	<h2 class="section-heading">Technolgy</h2>
-  <div class="grid inline-grid grid-cols-2 mt-8 gap-8">
+  <div class="grid inline-grid grid-cols-2 mt-10 gap-8">
     <div>
       <h3>Production</h3>
       <ul>
