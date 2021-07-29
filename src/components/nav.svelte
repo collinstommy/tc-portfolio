@@ -1,8 +1,8 @@
 <script>
 	const navItems = [
-		{ link: '#work', text: 'Work' },
 		{ link: '#projects', text: 'Projects' },
-		{ link: 'https://blog.tcollins.dev', text: 'Blog' }
+		{ link: '#work', text: 'Work' },
+		{ link: 'https://tcollins.dev/blog', text: 'Blog' }
 	];
 
 	let open = false;

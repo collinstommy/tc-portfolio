@@ -24,9 +24,10 @@ import Skills from '../components/skills.svelte';
   bg-white
   w-full
   
-	md:mt-14
+	md:my-14
 	md:mx-10
   md:px-10
+  md:pb-12
 "
 >
 	<Nav />
