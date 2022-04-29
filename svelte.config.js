@@ -4,7 +4,6 @@ import adapterStatic from '@sveltejs/adapter-static';
 
 const config = {
 	kit: {
-		target: 'body',
 		adapter: adapterStatic({
 			// default options are shown
 			pages: 'build',
@@ -14,9 +13,9 @@ const config = {
 	},
 	preprocess: [
 		preprocess({
-			"postcss": true
-		}),
-	],
+			postcss: true
+		})
+	]
 };
 
 export default config;
