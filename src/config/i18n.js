@@ -139,6 +139,6 @@ export default {
 			'Tailwind',
 			'React Testing Library'
 		],
-		side: ['Svelte', 'GatsbyJS']
+		side: ['Svelte', 'HTMX']
 	}
 };
